@@ -25,14 +25,14 @@ while True:
         name = str(input())
         d = str(input())
         fo = str(input())
-        savetxt(name, d, fo)
+        savetxt(name, d, fo)#название файла который надо создать, содержание файла(текст, киртинка и т.д.),формат
     elif n == 'l':
         loadname = str(input())
         formaat = str(input())
-        loadtxt(loadname, formaat)
+        loadtxt(loadname, formaat)#название файла который нужно загрузить, формат 
     else:
         name_delete = str(input())
         far = str(input())
-        delete_file("C:/Users/User/Desktop/save_load_delete",name_delete, far)
+        delete_file("C:/Users/User/Desktop/save_load_delete",name_delete, far)#путь к файлу , название файла который надо удалить
 
 
